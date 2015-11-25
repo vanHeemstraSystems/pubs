@@ -1,2 +1,5 @@
 # Chapter 1
-Hello, world!
+
+The Overview
+
+![Repository Hierarchy](images/repository-hierarchy.png)
