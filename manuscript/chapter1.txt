@@ -13,7 +13,9 @@ The Tacit system consists of the following modules (listed here in no particular
 * flow
 
 Their relation to one another is depicted below:
+
 ![System Overview](images/system-overview.png)
 
 On Github, the master repositories share centrally managed code kept as subtrees as follows:
+
 ![Repository Hierarchy](images/repository-hierarchy.png)
