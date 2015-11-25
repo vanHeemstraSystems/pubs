@@ -2,15 +2,16 @@
 
 ## The Overview
 
-The Tacit system consists of the following modules (listed here in no particular order):
+The Tacit system consists of the following layers (listed here in no particular order):
 
-* core
-* skin
-* mask
-* chat
-* bits
-* reap
-* flow
+* core: business layer
+* skin: layout layer
+* mask: style layer
+* chat: query layer
+* bits: data layer
+* kick: monitor layer
+* reap: report layer
+* flow: flow layer
 
 Their relation to one another is depicted below:
 
