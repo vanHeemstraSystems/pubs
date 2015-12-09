@@ -2,21 +2,14 @@
 
 ## The Overview
 
-The Tacit system consists of the following layers (listed here in no particular order):
+The Tacit enterprise consists of the following viewpoints:
 
-* core: business layer
-* skin: layout layer
-* mask: style layer
-* chat: query layer
-* bits: data layer
-* kick: monitor layer
-* reap: report layer
-* flow: flow layer
+* strategy: drives changes to architecture 
+* architecture: translates strategy to execution, informs and refines strategy
+* execution: enables improvements to architecture
 
 Their relation to one another is depicted below:
 
-![System Overview](images/system-overview.png)
+![Strategy Architecture Execution](images/strategy-architecture-execution.png)
 
-On Github, the master repositories share centrally managed code kept as subtrees as follows:
-
-![Repository Hierarchy](images/repository-hierarchy.png)
+The following chapters address each of these individually.
