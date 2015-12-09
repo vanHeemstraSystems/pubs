@@ -10,6 +10,6 @@ The Tacit enterprise consists of the following viewpoints:
 
 Their relation to one another is depicted below:
 
-![Strategy Architecture Execution](images/strategy-architecture-execution.png)
+![](images/strategy-architecture-execution.png)
 
 The following chapters address each of these individually.

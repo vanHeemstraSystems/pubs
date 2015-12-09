@@ -2,6 +2,7 @@
 
 ## Strategy
 
+Strategy drives changes to Architecture.
 
 
 It was a **bold** and *italic* night!
