@@ -5,6 +5,8 @@
 Architecture translates Strategy to Execution.
 Architecture informs and refines Strategy.
 
+###System
+
 The Tacit system consists of the following layers (listed here in no particular order):
 
 * core: business layer
@@ -23,3 +25,35 @@ Their relation to one another is depicted below:
 On Github, the master repositories share centrally managed code kept as subtrees as follows:
 
 ![Repository Hierarchy](images/repository-hierarchy.png)
+
+###Application
+
+Each application is an instance of a collection of code, following the Flux pattern (https://facebook.github.io/flux/docs/overview.html). This pattern if prefered over the Model-View-Controller (MVC) pattern at this level of the overall architecture, because Flux has a much more defined structure of events (their results being actions).
+
+![Flux Pattern](images/flux-pattern.png)
+
+An *action* is effectively a result of an event, that changes the system.
+
+A *store* contains the business logic. It listens to actions, when it receives one, it does something based on the action and updates its state appropriately.
+
+A *component* is a view. The view has a set of properties (passed in values) and/or state (the state is obtained from the store’s state). For a given set of properties and state, you always get the same layout. The components listen for updates to the state in the stores and update appropriately.
+
+We also have a *dispatcher*. The dispatcher dispatches actions to interested stores. Only one action can be processed at any one time. If a new action comes in, then the dispatcher queues it.
+
+Actions are always **synchronous** – if changes would happen due to external stimuli then these will be new actions. For example, this prevents actions from blocking other actions whilst waiting for a response from the server.
+
+The Component (i.e. View) in the Flux pattern uses the React pattern (https://en.wikipedia.org/wiki/React_(JavaScript_library)).
+
+![React Pattern](images/react-pattern.png)
+
+React provides the component structure, it has defined ways of tracking state and properties, and the re-rendering on state change gives much automation. Since it encourages the separation of immutable properties, a whole class of inadvertent errors is eliminated.
+
+There’s also many advantages with debugging – we have a flag that lets us watch all the actions going through the system, so its much easier to track what events are taking place and the data passed with them. This combined with the fact that actions have limited scope, helps with debugging the data flows.
+
+###Unit Testing
+
+* Components/Views are tested by setting up their state and/or properties and ensuring the correct elements are displayed.
+
+* Stores are tested by setting an initial state, sending an action, and checking the resultant state.
+
+(see also https://blog.mozilla.org/standard8/2015/02/09/firefox-hello-desktop-behind-the-scenes-flux-and-react/)
