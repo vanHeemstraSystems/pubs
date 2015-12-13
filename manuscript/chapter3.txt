@@ -50,6 +50,10 @@ React provides the component structure, it has defined ways of tracking state an
 
 There’s also many advantages with debugging – we have a flag that lets us watch all the actions going through the system, so its much easier to track what events are taking place and the data passed with them. This combined with the fact that actions have limited scope, helps with debugging the data flows.
 
+The entire point of React is to do **updates** efficiently (by using components in a *virtual* DOM, which is synchronized with the DOM of the views). React models its state as a state property of the component.
+
+(see also http://blog.reverberate.org/2014/02/react-demystified.html)
+
 ###Unit Testing
 
 * Components/Views are tested by setting up their state and/or properties and ensuring the correct elements are displayed.
