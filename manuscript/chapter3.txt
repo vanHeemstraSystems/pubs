@@ -22,7 +22,7 @@ Their relation to one another is depicted below:
 
 ![System Overview](images/system-overview.png)
 
-Modularity as a pre-requisite for mainatinability and scalability is obtained through the stacking of subtrees onto repositories. Each subtree is re-used by several repositories in order to prevent duplication of code.
+Modularity as a pre-requisite for maintainability and scalability is obtained through the stacking of subtrees onto repositories. Each subtree is re-used by several repositories in order to prevent duplication of code.
 
 ![Modularity](images/modularity.png)
 

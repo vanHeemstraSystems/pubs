@@ -26,6 +26,8 @@ Whenever text changes or image changes need to be made, after the changes, gener
 
 Should the document be ready for publication, choose 'Publish Your Book' (https://leanpub.com/tacit/publish), complete the requirements (such as writing the release notes) followed by pushing the 'Publish Book' button.
 
+Publications are stored in the directory 'publications' of this repository.
+
 ## Images
 
 Images for this publication are created with the use of the following imaging software programs:
