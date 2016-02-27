@@ -22,6 +22,10 @@ Their relation to one another is depicted below:
 
 ![System Overview](images/system-overview.png)
 
+Modularity as a pre-requisite for maintainability and scalability is obtained through the stacking of subtrees onto repositories. Each subtree is re-used by several repositories in order to prevent duplication of code.
+
+![Modularity](images/modularity.png)
+
 On Github, the master repositories share centrally managed code kept as subtrees as follows:
 
 ![Repository Hierarchy](images/repository-hierarchy.png)
@@ -61,3 +65,44 @@ The entire point of React is to do **updates** efficiently (by using components 
 * Stores are tested by setting an initial state, sending an action, and checking the resultant state.
 
 (see also https://blog.mozilla.org/standard8/2015/02/09/firefox-hello-desktop-behind-the-scenes-flux-and-react/)
+
+###Design
+
+Human Psychology
+
+Basing the design of the application on human psychology secures suitable interaction with its user interface. (see also the course 'Build Persuasive Products' at https://www.udemy.com/designing-engaging-user-experiences/).
+
+User Interface
+
+The application is designed along the following design guidelines:
+
+- Card Pattern (supported by Twitter's Bootstrap version 4, see http://getbootstrap.com), as highlighted here at http://blog.juntoo.co/card-ui-next-big-interaction-paradigm/
+
+One of the most important aspects of cards is that they are incredibly malleable. They can be tweaked and interacted with in a multitude of ways. Just think about what you can do with an actual physical card. A physical card can be:
+
+stacked
+expanded
+folded
+turned over
+spread out
+etc.
+
+Digital cards can do all that, and more. Inside a card we can embed:
+
+video
+gifs
+coupons
+photos
+payments
+music
+etc.
+
+The possibilities are endless…
+
+Going forward, the majority of mobile ui designs will be based on the card ui paradigm. The next logical step is marketing professionals and ad agencies starting to embrace cards. The larger platforms are already embracing it (look at Twitter Cards or Pinterest Promoted Pins).
+
+The card ui is set to be the next creative canvas for online content and will consequently also be the next big ad unit.
+
+- Flat Design (more specific Google's Material Design, see https://www.google.com/design/spec/material-design/)
+
+... more to follow
