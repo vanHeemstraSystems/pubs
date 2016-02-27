@@ -1,6 +1,6 @@
 # Chapter 1
 
-## The Overview
+## Overview
 
 The Tacit enterprise consists of the following viewpoints:
 
