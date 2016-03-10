@@ -5,6 +5,35 @@
 Architecture translates Strategy to Execution.
 Architecture informs and refines Strategy.
 
+###Requirements
+... more
+
+###Features
+... more
+
+###Functions
+
+To tranlate features to functions the aid of view based function net modeling is applied.
+
+![View-Based Function Net Modeling](images/view-based-function-net-modeling.png)
+
+source: http://www.sse-tubs.de/publications/GHKKR07OMER.pdf
+
+####Logical Architecture
+... more 
+
+####Function Net(s)
+... more
+
+####Software Architecture
+... more
+
+####Technical Architecture
+... more
+
+####Realization
+... more
+
 ###System
 
 The Tacit system consists of the following layers (listed here in no particular order):
