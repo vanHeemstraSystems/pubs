@@ -25,6 +25,10 @@ source: http://www.sse-tubs.de/publications/GHKKR07OMER.pdf
 ####Function Net(s)
 ... more
 
+#####SysML
+
+SysML block diagrams can be used by modeling functions of an system as blocks. These blocks can be hierarchical decomposed into subblocks that define the internal structure. Blocks can be connected to each other via directed connectors that represent a communication relationship. The connector can be used across the block hierarchy but also ports can be used to describe a well-defined interface. To increase the reuse, blocks can optionally have a type that allows the multiple instantiation of a single block within a diagram.
+
 ####Software Architecture
 ... more
 
