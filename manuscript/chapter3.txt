@@ -8,6 +8,9 @@ Architecture informs and refines Strategy.
 ###Requirements
 ... more
 
+Requirements describe what customers and other stakeholders want from a product or service.
+Consider using Dynamic Object-Oriented Requirements System (DOORS) for requirement management.
+
 ###Features
 ... more
 
