@@ -40,6 +40,22 @@ SysML block diagrams can be used by modeling functions of an system as blocks. T
 
 #####Functional Programming with JavaScript
 see also https://www.youtube.com/watch?v=BMUiFMZr7vk
+The technical implementation embraces functional programming as the approach of coding.
+
+Functional programming allowes for 'composition' of code, hence it adopts the concept of components at code level.
+Functions in JavaScript are values. A variable can be assigned a function.
+
+e.g.
+
+var triple = function(x) {
+	return 3 * x
+}
+
+Higher order functions are functions that can be put inside other functions. 
+- Code will be easier to debug (as the logic is contained inside a small function). 
+- Less code will be required (as code is reused through composition).
+
+Hence, code will be better maintainable and more scalable.
 
 ####Realization
 ... more
