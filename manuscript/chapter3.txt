@@ -38,6 +38,9 @@ SysML block diagrams can be used by modeling functions of an system as blocks. T
 ####Technical Architecture
 ... more
 
+#####Functional Programming with JavaScript
+see also https://www.youtube.com/watch?v=BMUiFMZr7vk
+
 ####Realization
 ... more
 
