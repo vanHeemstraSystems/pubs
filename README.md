@@ -7,6 +7,10 @@ The document(s) published here describe the 'Tacit' system, A Modular System for
 
 'Tacit' is created and maintained by van Heemstra Systems (https://github.com/vanHeemstraSystems/tacit).
 
+## App
+
+Read the Leanpub book of Tacit on your iPhone or iPad with the free, totally redesigned iOS app (https://itunes.apple.com/ca/app/leanpub/id913517110?mt=8). Get the latest version of any book you own with one tap and no hassle.
+
 ## Publishing
 
 These publications are created with the help of leanpub (see https://leanpub.com/tacit/ )
