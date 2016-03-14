@@ -87,7 +87,24 @@ Functional approach:
 
 	alert('Frogs: ' + JSON.stringify(frogs));
 
-Here 'filter' loops through each element of the animals array and passes the key-value pairs into its callback function. The callback will return either true or false (depending of the value of species being 'frog' or not). When it is done, it will retun the new filtered array, frogs.
+Here 'filter' - a higher order function that is part of javascript - loops through each element of the animals array and passes the key-value pairs into its callback function. The callback will return either true or false (depending of the value of species being 'frog' or not). When it is done, it will retun the new filtered array, frogs.
+
+We can make it more functional:
+
+	var isFrog = function(animal) {
+	  return animal.species === 'frog'
+	};
+
+	var frogs = animals.filter(isFrog);
+
+	alert('Frogs: ' + JSON.stringify(frogs));
+
+And extend it with showing animals other than frogs (by using the higher order function 'reject', which comes with the underscore library):
+
+	var nonFrogs = animals.reject(isFrog);
+
+	alert('nonFrogs: ' + JSON.stringify(nonfrogs)); 
+
 
 ####Realization
 ... more
