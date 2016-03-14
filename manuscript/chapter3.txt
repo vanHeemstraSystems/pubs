@@ -114,6 +114,12 @@ We can make it more functional:
 
 	alert('Frogs: ' + JSON.stringify(frogs));
 
+	var names = animals.map((animal) => animal.name); // Here we use the ECMA script 6 arrow syntax, where the value after the arrow is implicitly returned. 
+
+    alert('All Names: ' + JSON.stringify(names));
+
+For the new features in ECMAScript 6, see http://es6-features.org/
+
 And extend it with showing animals other than frogs (by using the higher order function 'reject', which comes with the underscore library):
 
 	var nonFrogs = animals.reject(isFrog);
