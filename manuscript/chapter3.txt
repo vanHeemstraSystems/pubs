@@ -79,6 +79,13 @@ Traditional approach:
 
 	alert('Frogs: ' + JSON.stringify(frogs));
 
+	var names = [];
+	for (var i = 0; i < animals.length; i++) {
+	  names.push(animals[i].name)
+	}
+
+    alert('All Names: ' + JSON.stringify(names));
+
 Functional approach:
 
 	var frogs = animals.filter(function(animal) {
