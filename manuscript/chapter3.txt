@@ -114,11 +114,11 @@ We can make it more functional:
 
 	alert('Frogs: ' + JSON.stringify(frogs));
 
-	var names = animals.map((animal) => animal.name); // Here we use the ECMA script 6 arrow syntax, where the value after the arrow is implicitly returned. 
+	var names = animals.map((animal) => animal.name); // Here we use the ECMAScript 6 arrow syntax, where the value after the arrow is implicitly returned. 
 
     alert('All Names: ' + JSON.stringify(names));
 
-For the new features in ECMAScript 6, see http://es6-features.org/
+The JavaScript core language features are defined in a standard called ECMA-262. The language defined in this standard is called **ECMAScript**, of which the JavaScript in the browser and Node.js environments are a superset. While browsers and Node.js may add more capabilities through additional objects and methods, the core of the language remains as defined in ECMAScript. For the new features in ECMAScript 6, see http://es6-features.org/
 
 And extend it with showing animals other than frogs (by using the higher order function 'reject', which comes with the underscore library):
 
