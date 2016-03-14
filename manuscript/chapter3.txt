@@ -94,7 +94,15 @@ Functional approach:
 
 	alert('Frogs: ' + JSON.stringify(frogs));
 
-Here 'filter' - a higher order function that is part of javascript - loops through each element of the animals array and passes the key-value pairs into its callback function. The callback will return either true or false (depending of the value of species being 'frog' or not). When it is done, it will retun the new filtered array, frogs.
+	var names = animals.map(function(animal) {
+      return animal.name
+	});
+
+    alert('All Names: ' + JSON.stringify(names));
+
+Here 'filter' - a higher order function that is part of javascript's array object - loops through each element of the animals array and passes the key-value pairs into its callback function. The callback will return either true or false (depending of the value of species being 'frog' or not). When it is done, it will retun the new filtered array, frogs.
+
+And 'map' - a higher order function that is part of javascript's array object - transforms each element of the animal array. Here it returns the animal's name only.
 
 We can make it more functional:
 
