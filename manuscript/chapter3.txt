@@ -16,7 +16,7 @@ Consider using Dynamic Object-Oriented Requirements System (DOORS) for requireme
 
 ###Functions
 
-To tranlate features to functions the aid of view based function net modeling is applied.
+To translate features to functions the aid of view based function net modeling is applied.
 
 ![View-Based Function Net Modeling](images/view-based-function-net-modeling.png)
 
@@ -182,6 +182,14 @@ There’s also many advantages with debugging – we have a flag that lets us wa
 The entire point of React is to do **updates** efficiently (by using components in a *virtual* DOM, which is synchronized with the DOM of the views). React models its state as a state property of the component.
 
 (see also http://blog.reverberate.org/2014/02/react-demystified.html)
+
+###UMD (Universal Module Definition)
+
+[![Build Status](https://travis-ci.org/umdjs/umd.svg)](https://travis-ci.org/umdjs/umd)
+
+This repository formalizes the design and implementation of the Universal Module Definition (UMD) API for JavaScript modules. These are modules which are capable of working everywhere, be it in the client, on the server or elsewhere.
+
+It is the intention to make all modules adhere to the UMD standard, for maximum compatibility.
 
 ###Unit Testing
 
