@@ -50,7 +50,7 @@ https://github.com/willem-vanheemstrasystems/angularjs-game02
 
 #####Web Backend
 
-For the Backend will make active use of an API infrastructure (compatible with Swagger) using NodeJS. Also, the Frontend will have realtime connectivity with the Backend through Socket.io.
+For the Backend we will make active use of an API infrastructure (compatible with Swagger) using NodeJS. Also, the Frontend will have realtime connectivity with the Backend through Socket.io.
 
 ####Technical Architecture
 ... more
