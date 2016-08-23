@@ -33,7 +33,24 @@ source: http://www.sse-tubs.de/publications/GHKKR07OMER.pdf
 SysML block diagrams can be used by modeling functions of an system as blocks. These blocks can be hierarchical decomposed into subblocks that define the internal structure. Blocks can be connected to each other via directed connectors that represent a communication relationship. The connector can be used across the block hierarchy but also ports can be used to describe a well-defined interface. To increase the reuse, blocks can optionally have a type that allows the multiple instantiation of a single block within a diagram.
 
 ####Software Architecture
-... more
+
+#####Web Frontend
+
+For the Frontend of the system, we make use of the following frameworks:
+
+1. AngularJS (http://www.angularjs.io): a javascript component MVC framework.
+
+2. Phaser (http://phaser.io): a fast, free and fun open source HTML5 game framework.
+
+The web user will interact with the system through a combination of AngularJS components and a game viewport created with Phaser. 
+
+The combination of these two technologies is under experimentation in the following repository:
+
+https://github.com/willem-vanheemstrasystems/angularjs-game02
+
+#####Web Backend
+
+For the Backend will make active use of an API infrastructure (compatible with Swagger) using NodeJS. Also, the Frontend will have realtime connectivity with the Backend through Socket.io.
 
 ####Technical Architecture
 ... more
